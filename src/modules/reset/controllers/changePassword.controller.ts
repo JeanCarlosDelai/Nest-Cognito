@@ -9,7 +9,7 @@ import { ChangePasswordSwaggerDecorator } from '../domain/customDecorators/chang
 @Controller('api/v1/auth')
 export class ChangePasswordController {
   // eslint-disable-next-line prettier/prettier
-  constructor(private changePasswordService: ChangePasswordService) { }
+  constructor(private changePasswordService: ChangePasswordService) {}
 
   @UseGuards(AuthGuard('jwt'))
   @ChangePasswordSwaggerDecorator()

@@ -32,4 +32,4 @@ import { JwtStrategy } from '../../../shared/common/strategys/jwt.strategy';
   ],
 })
 // eslint-disable-next-line prettier/prettier
-export class AuthModule { }
+export class AuthModule {}

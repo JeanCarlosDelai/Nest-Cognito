@@ -28,4 +28,4 @@ import { ChangePasswordService } from '../services/changePassword.service';
   ],
 })
 // eslint-disable-next-line prettier/prettier
-export class ResetModule { }
+export class ResetModule {}

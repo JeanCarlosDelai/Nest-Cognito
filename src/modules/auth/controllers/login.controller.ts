@@ -8,7 +8,7 @@ import { LoginSwaggerDecorator } from '../domain/customDecorators/loginSwaggerDe
 @Controller('api/v1/auth')
 export class LoginController {
   // eslint-disable-next-line prettier/prettier
-  constructor(private loginService: LoginService) { }
+  constructor(private loginService: LoginService) {}
 
   @LoginSwaggerDecorator()
   @Post('/login')

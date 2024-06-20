@@ -10,7 +10,7 @@ import { ChangePasswordDto } from '../domain/dtos/changePassword/changePassword.
 @Injectable()
 export class ChangePasswordService {
   // eslint-disable-next-line prettier/prettier
-  constructor(private readonly cognitoProvider: CognitoContract) { }
+  constructor(private readonly cognitoProvider: CognitoContract) {}
 
   async changePassword(
     ChangePassword: ChangePasswordDto

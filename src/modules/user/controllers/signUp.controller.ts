@@ -8,7 +8,7 @@ import { SignUpSwaggerDecorator } from '../domain/customDecorators/signUpSwagger
 @Controller('api/v1/user')
 export class SignUpController {
   // eslint-disable-next-line prettier/prettier
-  constructor(private signUpService: SignUpService) { }
+  constructor(private signUpService: SignUpService) {}
 
   @SignUpSwaggerDecorator()
   @Post('sign-up')
