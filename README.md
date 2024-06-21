@@ -21,7 +21,11 @@ Este repositório tem a proposta de mostrar um projeto utilizando o framework ne
 - [Terraform](https://www.terraform.io/);
 - Instalação [terraform Windows](https://nodejs.org/en/);
 - Instalação(Recomendado) [terraform WSL Windows/Linux](https://nodejs.org/en/)
-- Conta gratuíta na [AWS](https://aws.amazon.com/pt/free/?gclid=CjwKCAjwyJqzBhBaEiwAWDRJVG7KfaYfc-gsL5jxvEllnRK8yfZHKsFUzKN2FdtJFTm9ciMAo4XQxhoCJrYQAvD_BwE&trk=eb5111a8-7144-44a0-b89b-294d1572e79e&sc_channel=ps&ef_id=CjwKCAjwyJqzBhBaEiwAWDRJVG7KfaYfc-gsL5jxvEllnRK8yfZHKsFUzKN2FdtJFTm9ciMAo4XQxhoCJrYQAvD_BwE:G:s&s_kwcid=AL!4422!3!507891927284!p!!g!!aws%20amazon%20com!12582854283!122410197809&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all) (Recomendado plano gratuíto para não ter possíveis custos adicionais)
+- Conta na [AWS](https://aws.amazon.com/pt/free/?gclid=CjwKCAjwyJqzBhBaEiwAWDRJVG7KfaYfc-gsL5jxvEllnRK8yfZHKsFUzKN2FdtJFTm9ciMAo4XQxhoCJrYQAvD_BwE&trk=eb5111a8-7144-44a0-b89b-294d1572e79e&sc_channel=ps&ef_id=CjwKCAjwyJqzBhBaEiwAWDRJVG7KfaYfc-gsL5jxvEllnRK8yfZHKsFUzKN2FdtJFTm9ciMAo4XQxhoCJrYQAvD_BwE:G:s&s_kwcid=AL!4422!3!507891927284!p!!g!!aws%20amazon%20com!12582854283!122410197809&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all) (Recomendado plano gratuíto para não ter possíveis custos adicionais)
+
+## 📺 Playlist no Youtube sobre o projeto
+
+- [Youtube](https://www.youtube.com/watch?v=5WLbfX_QF7Q&list=PLOUmSdyfY1NYRpi1lXvPPP4Rm73I828L3)
 
 ## 💻 Como iniciar
 
@@ -54,7 +58,7 @@ cp .env.example .env
 ```
 
 - Adicionar AWS_ACCESS_KEY_ID e AWS_SECRET_KEY no arquivo .env
-- [Como gerar chaves AWS](https://www.git-scm.com/downloads);
+- [Como gerar chaves AWS](https://www.git-scm.com/downloads)
 
 ```sh
 #AWS
